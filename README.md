@@ -27,8 +27,8 @@ Font Awesome, Slick Carousel
 
 1. Clone the repository:
 
-git clone https://github.com/Badal1056/ShopSphere.git
-
-cd ShopSphere
+      git clone https://github.com/Badal1056/ShopSphere.git
+      
+      cd ShopSphere
 
 2. Open index.html in your browser to view the website.
