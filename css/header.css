@@ -19,8 +19,12 @@ body
     margin: auto;
     text-align: center;
     width: 100%;
-    display: grid;
     grid-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
     grid-template-columns: 1.5fr 1.5fr 5fr 1fr;
     font-family: 'Lato', sans-serif;
     z-index: 1;
@@ -49,6 +53,9 @@ body
 
 #collection
 {
+    display: flex;
+    gap: 15px; /* creates space between CLOTHING and ACCESSORIES */
+    align-items: center;
     font-weight: bold;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -77,8 +84,9 @@ body
 #user
 {
     display: flex;
-    /* float: right; */
     align-items: center;
+    gap: 15px; /* spacing between cart and user icon */
+    margin-left: auto; /* push to right */
 }
 
 .userIcon
@@ -108,6 +116,60 @@ body
 }
 
 /* ----------------------------- MEDIA QUERY --------------------------- */
+
+@media (max-width: 400px) {
+  #container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+
+  #shopName {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #collection {
+    justify-content: center;
+    gap: 8px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+  }
+
+  #search {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  #search input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #user {
+    justify-content: flex-end;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .userIcon,
+  .addedToCart {
+    font-size: 24px;
+  }
+
+  #badge {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    font-size: 11px;
+    padding: 2px 6px;
+  }
+}
+
 
 @media(max-width: 1300px)
 {
