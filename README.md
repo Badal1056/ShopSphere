@@ -1,6 +1,6 @@
 # 🛍️ ShopSphere - E-Commerce Website
 
-**ShopSphere** is a modern, responsive e-commerce website built using HTML5, CSS3, and JavaScript. The platform features product listings, an interactive shopping cart, and a sleek, mobile-friendly design.
+**ShopSphere** is a modern, responsive e-commerce website built using HTML5, CSS3, JavaScript and Bootstrap. The platform features product listings, an interactive shopping cart, and a sleek, mobile-friendly design.
 
 ## 🌐 Demo Link  
 👉 [Live Preview](https://shopsphere-badaljha.netlify.app/)
